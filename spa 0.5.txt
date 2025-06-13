@@ -1,0 +1,31 @@
+Notes --single page app
+
+Browser : GET https://studies.cs.helsinki.fi/exampleapp/spa
+Server : response - html document
+
+Browser : GET https://studies.cs.helsinki.fi/exampleapp/main.css
+Server : response CSS file
+
+Browser : GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+Server : response - Javascript file
+
+Browser : GET chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/common/local-storage.js
+Server : response - Javascript file
+
+Browser : GET chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/content_scripts/gsuite/fte-utils.js
+Server : response - Javascript file
+
+Browser : GET chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/content_scripts/express/express-fte.js
+Server : response - Javascript file
+
+Browser : GET chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/content_scripts/express/express-fte-utils.js
+Server : response - Javascript file
+
+Browser : GET https://studies.cs.helsinki.fi/exampleapp/data.json
+Server : response - JSON file - with all the data appearing on the page.
+
+Browser : GET chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/resources/SidePanel/sidePanelUtil.js
+Server : response - Javascript file
+
+Browser : GET chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/libs/readability.js
+Server : response - Javascript file

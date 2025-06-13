@@ -1,0 +1,5 @@
+new-note single page app
+input: new_note; then hit save
+
+browser: POST chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/libs/readability.js
+server: Response - JSON file : {"message":"note created"}
