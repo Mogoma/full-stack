@@ -1,0 +1,26 @@
+
+Participants:
+Browser
+Server
+
+Browser --> Server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
+GET https://studies.cs.helsinki.fi/exampleapp/notes
+server --> browser: HTML Document with a link/css tag and a script tag
+browser -->server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
+server--> browser: css file - main.css
+browser --> server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
+server --> browser: javascript file with a GET request for data.json
+browser --> server: GET chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/common/local-storage.js
+server --> browser: javascript file
+browser --> server: GET chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/content_scripts/gsuite/fte-utils.js
+server --> browser: javascript file
+browser --> server: GET chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/content_scripts/express/express-fte.js
+server --> browser: javascript file
+browser --> server: GET chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/content_scripts/express/express-fte-utils.js
+server --> browser: javascript file
+browser --> server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
+server --> browser: JSON file including the input 'first webpage'
+browser --> server: GET chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/resources/SidePanel/sidePanelUtil.js
+server --> browser: javascript file
+browser --> server: GET chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/libs/readability.js
+server --> browser: javascript file
